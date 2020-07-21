@@ -1,15 +1,14 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  #1 create new empty hash - pigeon_list
-  #2 iterate over pigeon data, create array of names - use gender
-  
-
-  
-end
-
+ 
+ data.each_with_object({}) do |(key, value), new_hash|
  
  
-binding.pry
+ 
+ 
+ 
+ end
+ 
   
 end
