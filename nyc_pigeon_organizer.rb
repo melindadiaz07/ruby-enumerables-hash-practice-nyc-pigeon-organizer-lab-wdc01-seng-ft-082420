@@ -14,11 +14,11 @@ def nyc_pigeon_organizer(data)
       pigeon_list[name][key].push(inner_key.to_s)
   
  end
- puts pigeon_list
+
  end
  end
 
   
 end
-
+puts pigeon_list
 
